@@ -1,0 +1,80 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXFileReference section */
+		0E30753F1B4C729700857CA0 /* XBee.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = XBee.cpp; path = XBeeLibrary/XBee.cpp; sourceTree = "<group>"; };
+		0E3075401B4C729700857CA0 /* XBee.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = XBee.h; path = XBeeLibrary/XBee.h; sourceTree = "<group>"; };
+		0E5C4A7C1B4C82DF00BFA4F8 /* XBeeResponse.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = XBeeResponse.h; path = XBeeLibrary/XBeeResponse.h; sourceTree = "<group>"; };
+		0E5C4A7D1B4C84C100BFA4F8 /* XBeeResponse.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = XBeeResponse.cpp; path = XBeeLibrary/XBeeResponse.cpp; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		0E4F7D711B4A6FD5007AF525 = {
+			isa = PBXGroup;
+			children = (
+				0E30753F1B4C729700857CA0 /* XBee.cpp */,
+				0E5C4A7D1B4C84C100BFA4F8 /* XBeeResponse.cpp */,
+				0E5C4A7C1B4C82DF00BFA4F8 /* XBeeResponse.h */,
+				0E3075401B4C729700857CA0 /* XBee.h */,
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXProject section */
+		0E4F7D721B4A6FD5007AF525 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+			};
+			buildConfigurationList = 0E4F7D751B4A6FD5007AF525 /* Build configuration list for PBXProject "XBee" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 0E4F7D711B4A6FD5007AF525;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+			);
+		};
+/* End PBXProject section */
+
+/* Begin XCBuildConfiguration section */
+		0E4F7D731B4A6FD5007AF525 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Debug;
+		};
+		0E4F7D741B4A6FD5007AF525 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0E4F7D751B4A6FD5007AF525 /* Build configuration list for PBXProject "XBee" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0E4F7D731B4A6FD5007AF525 /* Debug */,
+				0E4F7D741B4A6FD5007AF525 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0E4F7D721B4A6FD5007AF525 /* Project object */;
+}
