@@ -9,8 +9,6 @@
 /* Begin PBXFileReference section */
 		0E30753F1B4C729700857CA0 /* XBee.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = XBee.cpp; path = XBeeLibrary/XBee.cpp; sourceTree = "<group>"; };
 		0E3075401B4C729700857CA0 /* XBee.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = XBee.h; path = XBeeLibrary/XBee.h; sourceTree = "<group>"; };
-		0E5C4A7C1B4C82DF00BFA4F8 /* XBeeResponse.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = XBeeResponse.h; path = XBeeLibrary/XBeeResponse.h; sourceTree = "<group>"; };
-		0E5C4A7D1B4C84C100BFA4F8 /* XBeeResponse.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = XBeeResponse.cpp; path = XBeeLibrary/XBeeResponse.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXGroup section */
@@ -18,8 +16,6 @@
 			isa = PBXGroup;
 			children = (
 				0E30753F1B4C729700857CA0 /* XBee.cpp */,
-				0E5C4A7D1B4C84C100BFA4F8 /* XBeeResponse.cpp */,
-				0E5C4A7C1B4C82DF00BFA4F8 /* XBeeResponse.h */,
 				0E3075401B4C729700857CA0 /* XBee.h */,
 			);
 			sourceTree = "<group>";
